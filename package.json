@@ -1,0 +1,18 @@
+{
+  "name": "pencucian-kendaraan-ci",
+  "version": "1.0.0",
+  "description": "Sistem Manajemen Layanan dan Antrean Pencucian Kendaraan - Tugas TBP RPL UNTAD",
+  "main": "app.js",
+  "scripts": {
+    "build": "node --check app.js && node --check test-runner.js && echo 'Build & Syntax Check Berhasil (OK)'",
+    "test": "node test-runner.js"
+  },
+  "keywords": [
+    "pencucian-kendaraan",
+    "car-wash",
+    "ci-pipeline",
+    "rpl-untad"
+  ],
+  "author": "Kelompok TBP RPL (Juan Terrin K. Samatimbang, Linolian, Ryan Prasetya)",
+  "license": "MIT"
+}
